@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.faqs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.faqs img {
+    width: 25px;
+}
+
+.faqs h1 {
+    color: hsl(292, 42%, 14%);
+    margin-left: 15px;
+}
+
+button.accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+}
+
+
+
+.panel {
+    padding: 0 18px;
+    display: none;
+  
+    overflow: hidden;
+}
+
+.button .accordion .text {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.button .accordion .icon img {
+    width: 25px;
+}
